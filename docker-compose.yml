@@ -4,5 +4,7 @@ services:
     build: ./large
   small:
     build: ./small
+  modified:
+    build: ./modified
 volumes:
   logvolume01: {}
